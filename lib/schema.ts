@@ -17,7 +17,7 @@ export const LessonSchema = z.object({
   quiz_explanation: z.string(),
   viewpoint: z.string(),
   source_title: z.string(),
-  source_url: z.string().url(),
+  source_url: z.string(),
   source_published_at: z.string().nullable(),
 });
 
